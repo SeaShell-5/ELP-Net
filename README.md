@@ -5,7 +5,7 @@ The code for the paper “Enhanced Location Prediction for Wargaming with Graph 
 **Framework of ELP-Net for wargaming.**
 
 ## Dataset
-the dataset comes from **<http://www.hexwar.cn/>**
+The dataset comes from **<http://www.hexwar.cn/>**
 
 ### *Preprocessing*
 Data preprocessing follows the method of  **<[Liu et al](https://github.com/daman043/AAGWS-Wargame-master.git)>**
