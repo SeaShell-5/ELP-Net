@@ -22,7 +22,7 @@ change the directory to ./ELP-Net-master/parse_extract_feartures/, and run
 ```
 python split.py
 ```
-**The result will save in ./ELP-Net-master/data/train_val_test**
+**The result will save in ./ELP-Net-master/data/train_test**
 
 ## Experiment
 ### *Model*
