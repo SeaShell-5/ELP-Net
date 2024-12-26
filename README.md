@@ -40,14 +40,14 @@ change the directory to ./ELP-Net-master/Baselines/EnemyPositionPrediction/, and
 ```
 python train.py --net_name ELP --phrase test
 ```
-The test result will be save in ./ELP-Net-master/Baselines/EnemyPositionPrediction/checkpoints/ELP/all
+The test result will be save in ./ELP-Net-master/Baselines/EnemyPositionPrediction/checkpoints/ELPNet/all
 
 ### *Testing the best model*
 
 ```
 python train.py --net_name CNN_MSA_GRU --phrase test_pro
 ```
-The test_pro result will be save in ./ELP-Net-master/Baselines/EnemyPositionPrediction/checkpoints/ELP/all
+The test_pro result will be save in ./ELP-Net-master/Baselines/EnemyPositionPrediction/checkpoints/ELPNet/all
 
 ### *plot*
 Plot the all results in ./ELP-Net-master/plot, and run *result_plot_ipynb* with jupyter notebook
