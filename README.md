@@ -29,18 +29,18 @@ python split.py
 the network in ./ELP-Net-master/Baselines/Net
 
 ### *Training*
-change the directory to ./ELP-Net-master/Baselines/EnemyPositionPrediction/, and run
+change the directory to ./ELP-Net-master/Baselines/EnemyPositionPrediction/, and run(--module full, trans, gnn or base, default full, the option determines the module)
 ```
-python train.py --net_name ELP --phrase train
+python train.py --net_name ELPNet --phrase train 
 ```
 The train result will be save in ./ELP-Net-master/Baselines/EnemyPositionPrediction/checkpoints/
 
 ### *Testing*
 change the directory to ./ELP-Net-master/Baselines/EnemyPositionPrediction/, and run
 ```
-python train.py --net_name ELP --phrase test
+python train.py --net_name ELPNet --phrase test
 ```
-The test result will be save in ./ELP-Net-master/Baselines/EnemyPositionPrediction/checkpoints/ELPNet/all
+The test result will be save in ./ELP-Net-master/Baselines/EnemyPositionPrediction/checkpoints/ELPNet/full/all
 
 ### *Testing the best model*
 
